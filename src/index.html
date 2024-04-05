@@ -8,7 +8,7 @@
     <title>UI Practice</title>
 </head>
 <body>
-    <header>
+    <div class="main-container">
         <div class="topnav">
             <div class="expand-icon">
                 <span class="material-symbols-outlined navbar-icon">
@@ -27,10 +27,20 @@
                 <a href="#about">About</a>
               </div>
         </div>
-    </header>
-    <div class="img-carousel-div">
-        <img class="carousel-img" src="" alt="">
+    <div class="content-div">
+        <h1>Dynamic UI Interactions</h1>
+        <div class="img-carousel-div">
+            <div class="arrow-div">
+                <span class="material-symbols-outlined back-btn-div">
+                    arrow_back_ios
+                </span>
+                <img class="carousel-img" src="" alt="">
+                <span class="material-symbols-outlined forward-btn-div">
+                    arrow_forward_ios
+                </span>
+            </div>
+        </div>
     </div>
-    <!-- <script src="src/navbarDisplay.js"></script> -->
+</div>
 </body>
 </html>
